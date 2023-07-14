@@ -7,13 +7,13 @@ const raleway = Raleway({
 
 const CustomButton = ({ text, width }: ButtonProps) => {
   return (
-    <button className={`bg-white transition-all duration-150 hover:bg-black p-3 mx-auto mt-3 group flex justify-between items-center ${width} rounded-xl`}>
+    <button className={`bg-white transition-all duration-300 hover:bg-black p-3 mx-auto mt-3 group flex justify-between items-center ${width} rounded-xl`}>
       <span
         className={`transition-all ${raleway.className} duration-200 group-hover:text-white block`}
       >
         {text}
       </span>
-      <ArrowRightOutlined className="group-hover:text-white transition-all duration-150" />
+      <ArrowRightOutlined className="group-hover:text-white transition-all duration-300" />
     </button>
   );
 };
