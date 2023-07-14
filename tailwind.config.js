@@ -13,7 +13,7 @@ module.exports = {
       colors: {
         darkColor: "#1d242d",
         muted: "#f2f3f7",
-        muted2: "#f7fcfc",
+        muted2: "#f9fbfc",
         footer: "#eaeef2",
         textMuted: "#b4b4b4"
       },
