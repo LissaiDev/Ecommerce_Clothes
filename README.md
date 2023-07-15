@@ -1,34 +1,57 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Ecommerce-clothes
 
-## Getting Started
+👕 Ecommerce-clothes é uma landing page construída usando React, Next.js, TypeScript e Tailwind CSS. O objetivo da aplicação é fornecer uma plataforma para a venda de roupas, mantendo-se atualizada com as tendências tecnológicas atuais.
 
-First, run the development server:
+## Instalação
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Para executar a aplicação em seu ambiente local, siga as etapas abaixo:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. Certifique-se de ter o Node.js instalado em seu computador.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. Faça o download ou clone este repositório em sua máquina.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. No diretório do projeto, abra o terminal e execute o seguinte comando para instalar as dependências:
 
-## Learn More
+   ```
+   pnpm install
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+4. Após a conclusão da instalação das dependências, inicie o projeto com o seguinte comando:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```
+   pnpm run dev
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+5. Abra o navegador e visite [https://localhost:3000](https://localhost:3000/) para acessar a aplicação.
 
-## Deploy on Vercel
+## Estrutura do Projeto
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+A estrutura do projeto é concisa e minimalista, visando a clareza e organização do código. O diretório `src` contém os seguintes diretórios principais:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **app:** Contém as rotas da aplicação, onde são definidas as páginas e suas respectivas funcionalidades.
+
+- **assets:** 🖼️ Armazena os arquivos estáticos necessários para a aplicação, como imagens, ícones e fontes.
+
+- **components:** 🧩 Contém os componentes reutilizáveis da aplicação, que podem ser utilizados em diferentes partes do projeto.
+
+## Contribuição
+
+Aceito e incentivo contribuições da comunidade! Se você deseja contribuir para o projeto, siga as etapas abaixo:
+
+1. Faça um fork deste repositório.
+
+2. Crie uma branch com sua feature ou correção de bug: `git checkout -b minha-contribuicao`.
+
+3. Commit suas alterações: `git commit -m 'Minha contribuição'`.
+
+4. Push para o branch: `git push origin minha-contribuicao`.
+
+5. Abra um pull request neste repositório.
+
+6. Aguarde a revisão e discussão sobre suas contribuições.
+
+## Contato
+
+Se você tiver alguma dúvida, sugestão ou precisar de suporte, sinta-se à vontade para entrar em contato comigo. Você pode me alcançar através do seguinte e-mail: [lissaidev@outlook.com](mailto:lissaidev@outlook.com).
+
+Visite a página do projeto: [https://ecommerce-clothes-alpha.vercel.app/](https://ecommerce-clothes-alpha.vercel.app/) 🌐
